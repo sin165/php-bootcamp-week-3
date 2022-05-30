@@ -5,7 +5,7 @@ $statement = $pdo->prepare("SELECT * FROM monsters");
 $statement->execute();
 $monsters = $statement->fetchAll(PDO::FETCH_ASSOC);
 
-require_once "../views/header.php";
+require_once "../views/header.html";
 
 foreach ($monsters as $monster) {
     require "../views/card.php";

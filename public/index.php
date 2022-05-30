@@ -31,7 +31,7 @@ if($search){
     }
 }
 
-require_once "../views/header.php";
+require_once "../views/header.html";
 if($display){
     foreach ($monsters as $monster) {
         require "../views/card.php";
