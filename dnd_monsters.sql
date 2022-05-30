@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 30, 2022 at 06:04 PM
+-- Generation Time: May 30, 2022 at 09:27 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.5
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `dnd_monsters`
 --
+CREATE DATABASE IF NOT EXISTS `dnd_monsters` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `dnd_monsters`;
 
 -- --------------------------------------------------------
 
